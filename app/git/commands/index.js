@@ -1,9 +1,15 @@
+const Init = require('./init')
 const CatFile = require("./cat-file")
 const HashObject = require('./hash-object')
-const Init = require('./init')
+const LsTree = require('./ls-tree')
+const WriteTree = require('./write-tree')
+const CommitTree = require('./commit-tree')
 
 module.exports = {
     Init,
     CatFile,
-    HashObject
+    HashObject,
+    LsTree,
+    WriteTree,
+    CommitTree
 }
